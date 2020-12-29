@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 8px 16px;
+            }
+            a:hover {
+                background-color: #ddd;
+                color: black;
+            }
+            .previous {
+                background-color: rgb(219, 108, 108);
+                color: black;
+            }
+            .round {
+                border-radius: 50%;
+                }
+        </style>
+    <title>HTML JavaScript output on same page</title>
+    <script type="text/JavaScript">
+        function create(){
+          let data = ''
+            var key = document.getElementById("key").value;
+            var value = document.getElementById("value").value;
+            var ttl = document.getElementById("ttl").value;
+            if(ttl != null){
+              data = 'http://localhost:3000/create/'+key+'/'+value+'/'+ttl
+            }
+            else{
+              data = 'http://localhost:3000/create/'+key+'/'+value
+            }
+            const XHR = new XMLHttpRequest();
+            let response = ''
+            XHR.open( 'POST', data );
+            XHR.setRequestHeader( 'Content-Type', 'application/x-www-form-urlencoded' );
+            XHR.onload = ()=>{
+              response = XHR.response
+              display_message.innerHTML = response;
+            }
+            XHR.send();
+            document.getElementById("createForm").reset();
+        }
+    </script>
+</head>
+<body>
+    <a href="index.html" class="previous round">&#8249;</a><br><br>
+  <h1>CREATE</h1>
+<form id="createForm">
+  <label for="key">KEY:</label>
+  <input type="text" id="key" name="key"><br><br>
+  <label for="value">VALUE:</label>
+  <input type="text" id="value" name="value"><br><br>
+  <label for="ttl">TTL:</label>
+  <input type="text" id="ttl" name="ttl"><br><br>
+  <input type="button" onclick="create()" value="submit" />
+</form>
+<p><span id = "display_message"></span> </p>
+</body>
+</html>
