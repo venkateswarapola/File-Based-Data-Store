@@ -27,7 +27,7 @@
 
 .
 ## SNAPSHOTS OF POSTMAN
-| ![create](./ScreenShots/create2.png) |
+| ![create](https://github.com/venkateswarapola/File-based-Data-Store/tree/master/ScreenShots/create2.png?raw=true) |
 |:--:| 
 | *INSERT DATA* |
 
