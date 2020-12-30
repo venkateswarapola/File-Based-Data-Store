@@ -16,7 +16,7 @@
 ##### RUN
 * mocha unitTest.js
 
-| ![test](./ScreenShots/testing.png) |
+| ![test](ScreenShots/testing.png) |
 |:--:| 
 | *15 TEST RESULTS* |
 
@@ -27,76 +27,76 @@
 
 .
 ## SNAPSHOTS OF POSTMAN
-| ![create](https://github.com/venkateswarapola/File-based-Data-Store/tree/master/ScreenShots/create2.png?raw=true) |
+| ![create](ScreenShots/create2.png) |
 |:--:| 
 | *INSERT DATA* |
 
-| ![create](./ScreenShots/create1.png) |
+| ![create](ScreenShots/create1.png) |
 |:--:| 
 | *KEY ALREADY EXISTS* |
 
-| ![create](./ScreenShots/create4.png) |
+| ![create](ScreenShots/create4.png) |
 |:--:| 
 | *VALUE NOT OBJECT TYPE ERROR* |
 
-| ![create](./ScreenShots/create5.png) |
+| ![create](ScreenShots/create5.png) |
 |:--:| 
 | *KEY VALUE > 32 CHARACTERS ERROR* |
 
-| ![read](./ScreenShots/read2.png) |
+| ![read](ScreenShots/read2.png) |
 |:--:| 
 | *READ DATA* |
 
-| ![read](./ScreenShots/read1.png) |
+| ![read](ScreenShots/read1.png) |
 |:--:| 
 | *KEY EXPIRED CANNOT READ* |
 
-| ![read](./ScreenShots/read3.png) |
+| ![read](ScreenShots/read3.png) |
 |:--:| 
 | *KEY DOES NOT EXIST* |
 
-| ![delete](./ScreenShots/delete2.png) |
+| ![delete](ScreenShots/delete2.png) |
 |:--:| 
 | *DELETE DATA* |
 
-| ![delete](./ScreenShots/delete1.png) |
+| ![delete](ScreenShots/delete1.png) |
 |:--:| 
 | *KEY EXPIRES CANNOT DELETE* |
 
 ## SNAPSHOTS OF WEBPAGE
 
-| ![SELECTE OPERATION](./ScreenShots/indexPage.png "SELECT OPERATION") |
+| ![SELECTE OPERATION](ScreenShots/indexPage.png "SELECT OPERATION") |
 |:--:| 
 | *SELECT OPERATION* |
 
-| ![CREATE FORM](./ScreenShots/createPage1.png "CREATE FORM") |
+| ![CREATE FORM](ScreenShots/createPage1.png "CREATE FORM") |
 |:--:| 
 | *CREATE FORM* |
 
-| ![CREATE RESPONSE](./ScreenShots/createPage2.png "CREATE RESPONSE") |
+| ![CREATE RESPONSE](ScreenShots/createPage2.png "CREATE RESPONSE") |
 |:--:| 
 | *CREATE RESPONSE* |
 
-| ![READ FORM](./ScreenShots/readPage1.png "READ FORM") |
+| ![READ FORM](ScreenShots/readPage1.png "READ FORM") |
 |:--:| 
 | *SELECT OPERATION* |
 
-| ![READ SUCCESS RESPONSE](./ScreenShots/readPage2.png "READ SUCCESS RESPONSE") |
+| ![READ SUCCESS RESPONSE](ScreenShots/readPage2.png "READ SUCCESS RESPONSE") |
 |:--:| 
 | *READ SUCCESS RESPONSE* |
 
-| ![READ FAILED DUE TO KEY EXPIRY](./ScreenShots/readPage3.png "READ FAILED DUE TO KEY EXPIRY") |
+| ![READ FAILED DUE TO KEY EXPIRY](ScreenShots/readPage3.png "READ FAILED DUE TO KEY EXPIRY") |
 |:--:| 
 | *READ FAILED DUE TO KEY EXPIRY* |
 
-| ![DELETE FORM](./ScreenShots/deletePage1.png "DELETE FORM") |
+| ![DELETE FORM](ScreenShots/deletePage1.png "DELETE FORM") |
 |:--:| 
 | *DELETE FORM* |
 
-| ![DELETE SUCCESS RESPONSE](./ScreenShots/deletePage2.png "DELETE SUCCESS RESPONSE") |
+| ![DELETE SUCCESS RESPONSE](ScreenShots/deletePage2.png "DELETE SUCCESS RESPONSE") |
 |:--:| 
 | *DELETE SUCCESS RESPONSE* |
 
-| ![DELETE FAILED DUE TO KEY EXPIRY](./ScreenShots/deletePage3.png "DELETE FAILED DUE TO KEY EXPIRY") |
+| ![DELETE FAILED DUE TO KEY EXPIRY](ScreenShots/deletePage3.png "DELETE FAILED DUE TO KEY EXPIRY") |
 |:--:| 
 | *DELETE FAILED DUE TO KEY EXPIRY* |
